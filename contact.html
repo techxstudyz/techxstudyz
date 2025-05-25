@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Techxstudyz</title>
+</head>
+<body>
+
+  <!-- Header with Navbar -->
+  <header>
+<nav>
+  <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+  <ul id="nav-list">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="tools.html">Tools</a></li>
+    <li><a href="deals.html">Deals</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h1>Contact Techxstudyz</h1>
+      <p>You can reach us via email or follow us on social media:</p>
+      <ul>
+        <li>Email: <a href="mailto:contact@techxstudyz.com">contact@techxstudyz.com</a></li>
+        <li>Twitter: <a href="https://twitter.com/techxstudyz" target="_blank">@techxstudyz</a></li>
+        <li>Instagram: <a href="https://instagram.com/techxstudyz" target="_blank">@techxstudyz</a></li>
+      </ul>
+
+      <!-- Simple contact form placeholder -->
+      <form action="#" method="post">
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required /><br/><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email" required /><br/><br/>
+
+        <label for="message">Message:</label><br/>
+        <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Techxstudyz. All rights reserved.</p>
+  </footer>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.getElementById('nav-list');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>

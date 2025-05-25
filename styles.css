@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f7f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #004aad;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #00337f;
+  color: #fff;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #0066cc;
+}
+
+/* Lists */
+ul {
+  margin-top: 15px;
+  padding-left: 20px;
+  color: #555;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Form Styling */
+form label {
+  font-weight: 600;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+form button:hover {
+  background-color: #00337f;
+}
+/* Mobile nav toggle */
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    display: none;
+    background-color: #004aad;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+  }
+  nav ul.show {
+    display: flex;
+  }
+  #menu-toggle {
+    display: block;
+  }
+}

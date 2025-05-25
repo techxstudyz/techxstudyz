@@ -2,21 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Techxstudyz</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #f0f0f0;
-      padding: 2rem;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Techxstudyz — Smarter Study, Smarter Tech</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Techxstudyz - Honest gadget reviews, productivity tools, and budget tech deals for Indian students." />
+<meta name="keywords" content="Techxstudyz, student tech reviews, budget tech India, study tools, productivity apps" />
+<meta name="author" content="Techxstudyz" />
+
+<!-- Open Graph for social media previews -->
+<meta property="og:title" content="Techxstudyz – Smarter Study, Smarter Tech for Indian Students" />
+<meta property="og:description" content="Find honest gadget reviews, study tools, and budget tech deals curated for Indian students." />
+<meta property="og:image" content="path/to/your/social-image.png" />
+<meta property="og:url" content="https://techxstudyz.github.io/" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Techxstudyz – Smarter Study, Smarter Tech for Indian Students" />
+<meta name="twitter:description" content="Find honest gadget reviews, study tools, and budget tech deals curated for Indian students." />
+<meta name="twitter:image" content="path/to/your/social-image.png" />
+
 </head>
 <body>
-  <h1>Welcome to Techxstudyz</h1>
-  <p>Smarter Study, Smarter Tech for Indian Students.</p>
+
+  <!-- Header with Navbar -->
+  <header>
+    <nav>
+  <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+  <ul id="nav-list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="tools.html">Tools</a></li>
+    <li><a href="deals.html">Deals</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h1>Welcome to Techxstudyz</h1>
+      <p>Your go-to site for honest gadget reviews, productivity tools, and budget tech deals — all tailored for Indian students.</p>
+    </section>
+
+    <section>
+      <h2>Explore Our Core Areas</h2>
+      <ul>
+        <li><a href="reviews.html">Gadget Reviews</a> — Budget-friendly tech like earphones, laptops, keyboards, and more.</li>
+        <li><a href="tools.html">Study Tools</a> — Apps and tools to boost your focus and productivity.</li>
+        <li><a href="deals.html">Tech Deals</a> — Curated budget tech recommendations with affiliate links.</li>
+        <li><a href="blog.html">Study Blog</a> — Tips and hacks to study smarter and stay motivated.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>Helping students study smarter and buy better tech without wasting money.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Techxstudyz. All rights reserved.</p>
+  </footer>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.getElementById('nav-list');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+</script>
+
 </body>
 </html>

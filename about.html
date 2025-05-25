@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Techxstudyz</title>
+</head>
+<body>
+
+  <!-- Header with Navbar -->
+  <header>
+    <nav>
+  <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+  <ul id="nav-list">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+    <li><a href="tools.html">Tools</a></li>
+    <li><a href="deals.html">Deals</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section>
+      <h1>About Techxstudyz</h1>
+      <p>Techxstudyz is dedicated to helping Indian students study smarter and buy better tech without wasting money.</p>
+      <p>We offer honest gadget reviews, productivity tools, budget tech deals, and smart study tips — all curated with students in mind.</p>
+      <p>Our mission is to empower students with the best technology and strategies to succeed.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Techxstudyz. All rights reserved.</p>
+  </footer>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navList = document.getElementById('nav-list');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>

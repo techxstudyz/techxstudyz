@@ -1,83 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Techxstudyz — Smarter Study, Smarter Tech</title>
-  <meta name="description" content="Honest gadget reviews, study tools, and student tech deals — made for Indian students.">
-  <meta name="author" content="Techxstudyz">
-  <meta property="og:image" content="social-preview.png" />
-  <meta name="twitter:image" content="social-preview.png" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techxstudyz – Smarter Tech for Smarter Study</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Hero -->
+    <section class="bg-gradient-to-b from-indigo-600 to-purple-700 text-white py-16 px-6 text-center">
+      <h1 class="text-4xl font-bold mb-4">Techxstudyz</h1>
+      <p class="text-lg mb-6">Smarter Study, Smarter Tech for Indian Students</p>
+      <a href="#explore" class="inline-block px-6 py-3 bg-white text-indigo-700 font-semibold rounded-lg shadow hover:bg-gray-100 transition">Explore Now</a>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Techxstudyz</h1>
-    <p>Smarter Study, Smarter Tech for Indian Students</p>
-    <a href="#highlights" class="cta-button">Explore Now</a>
-  </section>
-
-  <!-- What We Offer -->
-  <section id="highlights" class="highlights">
-    <div class="feature-card">
-      <h2>🎧 Gadget Reviews</h2>
-      <p>Honest opinions on budget-friendly earphones, laptops & more.</p>
-    </div>
-    <div class="feature-card">
-      <h2>📚 Study Tools</h2>
-      <p>Focus apps, extensions & digital tools that actually help.</p>
-    </div>
-    <div class="feature-card">
-      <h2>💸 Tech Deals</h2>
-      <p>Best-value gear picked for students. Save smart, study smarter.</p>
-    </div>
-  </section>
-
-  <!-- Why It Matters -->
-  <section class="why-it-matters">
-    <h2>Why Techxstudyz Exists</h2>
-    <p>Many Indian students waste money on bad tech or never discover study tools that could change their game. We fix that — with honest reviews, smart tools, and budget finds that help students like you thrive.</p>
-  </section>
-
-  <!-- Latest Blog Posts -->
-  <section class="latest">
-    <h2>Latest from the Blog</h2>
-    <div class="post-grid">
-      <div class="post-card">
-        <h3>5 Free Tools That Make Studying Easier</h3>
-        <p>Boost your focus and productivity with these must-have student tools.</p>
-        <a href="/blog">Read More →</a>
+    <!-- Features -->
+    <section class="max-w-5xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      <div>
+        <div class="text-4xl mb-2">🎧</div>
+        <h2 class="text-xl font-semibold mb-2">Gadget Reviews</h2>
+        <p>Honest, student-friendly reviews of the best tech to boost your learning.</p>
       </div>
-      <div class="post-card">
-        <h3>Best Budget Earphones for Study Sessions</h3>
-        <p>Top picks under ₹1,000 that deliver clarity and comfort.</p>
-        <a href="/reviews">See Picks →</a>
+      <div>
+        <div class="text-4xl mb-2">📚</div>
+        <h2 class="text-xl font-semibold mb-2">Study Tools</h2>
+        <p>Explore apps and extensions that make studying smarter and more enjoyable.</p>
       </div>
-      <div class="post-card">
-        <h3>3 Browser Extensions Every Student Needs</h3>
-        <p>Simple tools to block distractions and stay focused.</p>
-        <a href="/tools">Check Them Out →</a>
+      <div>
+        <div class="text-4xl mb-2">💸</div>
+        <h2 class="text-xl font-semibold mb-2">Tech Deals</h2>
+        <p>Save big on the tools that matter. Great gear, better prices—just for students.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Newsletter Section -->
-  <section class="newsletter">
-    <h2>Want the Best Tech Tips & Deals?</h2>
-    <p>Join our free newsletter for Indian students.</p>
-    <form>
-      <input type="email" placeholder="Your email" required />
-      <button type="submit">Subscribe</button>
-    </form>
-  </section>
+    <!-- Mission -->
+    <section class="bg-gray-50 py-16 px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">Why Techxstudyz Exists</h2>
+      <p class="max-w-3xl mx-auto text-lg">We empower Indian students to thrive with tech that works. No confusion, no waste — just clarity, simplicity, and tools that truly elevate your learning game.</p>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Techxstudyz. Built by students, for students.</p>
-  </footer>
+    <!-- Blog Preview -->
+    <section class="max-w-5xl mx-auto py-12 px-6">
+      <h2 class="text-2xl font-semibold mb-6">Latest from the Blog</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow p-4">
+          <h3 class="font-semibold text-lg mb-2">Top 5 Budget Earphones for Students</h3>
+          <p class="text-sm">Great sound, smart price – check our honest picks under ₹1,000.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4">
+          <h3 class="font-semibold text-lg mb-2">Study Tools that Actually Help</h3>
+          <p class="text-sm">From Notion templates to Chrome extensions — see what works in 2025.</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4">
+          <h3 class="font-semibold text-lg mb-2">Best Deals This Month</h3>
+          <p class="text-sm">Don’t miss out on tech deals curated especially for students.</p>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <!-- Footer -->
+    <footer class="bg-indigo-700 text-white text-center py-6 mt-12">
+      <p>&copy; 2025 Techxstudyz. Built to help students thrive.</p>
+    </footer>
+  </body>
 </html>
